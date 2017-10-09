@@ -1,0 +1,29 @@
+{
+  "name": "testcgr",
+  "version": "1.0.0",
+  "description": "a small test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "git add -A && git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipas/testcgr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cipas/testcgr/issues"
+  },
+  "homepage": "https://github.com/cipas/testcgr#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
