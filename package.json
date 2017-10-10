@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cm": "git add -A && git cz",
-    "github-release": "conventional-github-releaser -p angular"
+    "github-release": "conventional-github-releaser -p angular -v"
   },
   "repository": {
     "type": "git",
