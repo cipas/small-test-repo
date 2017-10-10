@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cm": "git add -A && git cz",
-    "github-release": "conventional-github-releaser -p angular -v"
+    "cm": "git add -A && git cz"
   },
   "repository": {
     "type": "git",
