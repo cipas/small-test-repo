@@ -37,7 +37,6 @@ Create a new token and set your environment variable `CONVENTIONAL_GITHUB_RELEAS
 ```
 $ npm install -g conventional-github-releaser
 $ cd my-project
-$ npm install --save-dev conventional-github-releaser
 $ conventional-github-releaser -p angular
 ```
 
